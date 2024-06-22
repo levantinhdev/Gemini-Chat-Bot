@@ -12,7 +12,7 @@ import kotlinx.coroutines.withContext
  */
 object ChatData {
 
-    val api_key = "AIzaSyBtPQG2TNshIZGkNe3DjTfMRdXq8gF1ju0"
+    val api_key = "AIzaSyDJWTwcDh5Niq-wk6exxG7p4OdfJNviJsQ"
 
     suspend fun getResponse(prompt: String): Chat {
         val generativeModel = GenerativeModel(
